@@ -1,5 +1,3 @@
-<div style="text-align: justify">
-
 # D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles
 
 This repository is the official implementation of [D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles](). 
@@ -8,9 +6,9 @@ This repository is the official implementation of [D-VAT: End-to-End Visual Acti
 
 ## Abstract
 
-<div style="text-align: justify"> 
-Visual active tracking is a growing research topic in robotics due to its key role 
-in applications such as human assistance, disaster recovery, and surveillance. 
+<div style="text-align:justify"> 
+Visual active tracking is a growing research topic in robotics due to its key 
+role in applications such as human assistance, disaster recovery, and surveillance. 
 In contrast to passive tracking, active tracking approaches combine vision and 
 control capabilities to detect and actively track the target. Most of the work 
 in this area focuses on ground robots, while the very few contributions on aerial
@@ -26,8 +24,11 @@ from those encountered during training. Moreover, we  demonstrate a
 smooth real-world transition to a quadrotor platform with mixed-reality.
 </div>
 
+<p></p>
+
+
 <figure>
-  <figcaption><b>Overview of the VAT task. The tracker MAV (blue) adjusts its position and orientation so as to keep the target MAV (red) at the center of the camera FoV and at a predefined distance. Our approach exploits an end-to-end DRL-based VAT method that directly maps RGB images into thrust and angular velocity commands that are fed to the tracker.</b></figcaption>
+  <figcaption text-align="justify"><b>Overview of the VAT task. The tracker MAV (blue) adjusts its position and orientation so as to keep the target MAV (red) at the center of the camera FoV and at a predefined distance. Our approach exploits an end-to-end DRL-based VAT method that directly maps RGB images into thrust and angular velocity commands that are fed to the tracker.</b></figcaption>
   <img
   src="images/overview.jpg"
   alt="Actor Net">
@@ -56,21 +57,10 @@ pip install wandb
 We used Unreal Editor 4.26.2 to build the training environment. We compiled a packaged version
 of the Box Environments that can be downloaded from this [link](https://unipg-my.sharepoint.com/:u:/g/personal/alberto_dionigi_studenti_unipg_it/EUAkz-Swq8NFnETrQevvPnEBnh4t2wfqxlUaTX0T8yFxdQ?e=83zbiC).
 
-<style>
-  .immagini {
-    display: flex;
-    justify-content: space-between;
-  }
-  .immagini img {
-    width: 30%;
-    height: auto;
-  }
-</style>
-
 <div class="immagini">
-  <img src="images/DR_1.jpg" alt="dr_1">
-  <img src="images/DR_2.jpg" alt="dr_2"> 
-  <img src="images/DR_3.jpg" alt="dr_3">
+  <img src="images/DR_1.jpg" alt="dr_1" width=33%>
+  <img src="images/DR_2.jpg" alt="dr_2" width=33%> 
+  <img src="images/DR_3.jpg" alt="dr_3" width=33%>
 </div>
 
 Once downloaded the file, unzip in on your computer and run VAT.exe. Install the Unreal Engine
@@ -143,6 +133,8 @@ You can download one of our pre-trained models from [here](https://unipg-my.shar
 Inside `run_code.py` there is
 Once configured the hyperparameters, just run `run_code.py` with `'eval_mode': False` to start the training.
 
+---
+
 ## Citing
 
 If you use this code in a scientific context, please cite the following:
@@ -154,6 +146,3 @@ BibTeX details:
 ```bibtex
 
 ```
-
-
-</div>
