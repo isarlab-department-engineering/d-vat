@@ -58,9 +58,9 @@ We used Unreal Editor 4.26.2 to build the training environment. We compiled a pa
 of the Box Environments that can be downloaded from this [link](https://unipg-my.sharepoint.com/:u:/g/personal/alberto_dionigi_studenti_unipg_it/EUAkz-Swq8NFnETrQevvPnEBnh4t2wfqxlUaTX0T8yFxdQ?e=83zbiC).
 
 <div class="immagini">
-  <img src="images/DR_1.jpg" alt="dr_1" width=33%>
-  <img src="images/DR_2.jpg" alt="dr_2" width=33%> 
-  <img src="images/DR_3.jpg" alt="dr_3" width=33%>
+  <img src="images/DR_1.jpg" alt="dr_1" width=32%>
+  <img src="images/DR_2.jpg" alt="dr_2" width=32%> 
+  <img src="images/DR_3.jpg" alt="dr_3" width=32%>
 </div>
 
 Once downloaded the file, unzip in on your computer and run VAT.exe. Install the Unreal Engine
