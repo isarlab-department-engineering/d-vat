@@ -128,10 +128,7 @@ If you want also to disable the black screen in Unreal, remember to set `'render
 ### PreTrained Models
 
 You can download one of our pre-trained models from [here](https://unipg-my.sharepoint.com/:u:/g/personal/alberto_dionigi_studenti_unipg_it/EdbasJ4SptZFtldkpuP744IB6_ZbOOpxinleJ5gF91mZGw?e=u2Jr37). Just unzip it in the experiments folder and accordingly configure 
-**experiment_numer** and **model_numer** of the previous step correctly. 
-
-Inside `run_code.py` there is
-Once configured the hyperparameters, just run `run_code.py` with `'eval_mode': False` to start the training.
+**experiment_numer** and **model_numer** of the previous step. 
 
 ---
 
