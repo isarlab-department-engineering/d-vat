@@ -1,6 +1,6 @@
 # D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles
 
-This repository is the official implementation of [D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles](). 
+This repository is the official implementation of [D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles](https://doi.org/10.1109/LRA.2024.3385700). 
 
 ---
 
@@ -51,6 +51,14 @@ pip install wandb
 ```
 
 **NB**: pytorch must be installed depending on your pc configuration (CPU or GPU).
+
+**Troubleshooting**
+
+In order to correctly install `stable-baselines3==1.5.0`, you may need to update `setuptools` and `wheel` as follows: 
+```
+pip install --upgrade --force-reinstall setuptools==65.5.0 
+pip install --upgrade --force-reinstall wheel==0.38.4
+```
 
 ### Unreal Engine 4
 
@@ -136,10 +144,16 @@ You can download one of our pre-trained models from [here](https://unipg-my.shar
 
 If you use this code in a scientific context, please cite the following:
 
-> 
+> A. Dionigi, S. Felicioni, M. Leomanni and G. Costante, "D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles," in IEEE Robotics and Automation Letters, doi: 10.1109/LRA.2024.3385700.
 
 BibTeX details:
 
 ```bibtex
-
+@article{dionigi2024d,
+  title={D-VAT: End-to-End Visual Active Tracking for Micro Aerial Vehicles},
+  author={Dionigi, Alberto and Felicioni, Simone and Leomanni, Mirko and Costante, Gabriele},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  publisher={IEEE}
+}
 ```
