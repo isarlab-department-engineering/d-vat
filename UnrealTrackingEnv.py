@@ -135,7 +135,6 @@ class UnrealTrackingEnv(gym.Env):
         self.envs = []
         self.port_tracker = start_tracker_port + (self.rank * 2)
         self.port_target = start_target_port + (self.rank * 2)
-        self.render = render
         self.sensor_settings = {
             "RGBCamera": {
                 "width": self.image_shape[1],
@@ -167,9 +166,9 @@ class UnrealTrackingEnv(gym.Env):
         try:
             if len(self.envs) == 0:
                 self.envs.append(
-                    Environment(self.port_tracker, self.sensor_settings, self.action_manager_settings, reset_manager_settings=self.reset_manager_settings, render=self.render))
+                    Environment(self.port_tracker, self.sensor_settings, self.action_manager_settings, reset_manager_settings=self.reset_manager_settings, render=render))
                 self.envs.append(
-                    Environment(self.port_target, self.sensor_settings, self.action_manager_settings, render=self.render))
+                    Environment(self.port_target, self.sensor_settings, self.action_manager_settings, render=render))
                 self.connected = True
         except:
             print("ERROR: Cannot connect to Unreal")
