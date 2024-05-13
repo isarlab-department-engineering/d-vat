@@ -63,7 +63,7 @@ pip install --upgrade --force-reinstall wheel==0.38.4
 ### Unreal Engine 4
 
 We used Unreal Editor 4.26.2 to build the training environment. We compiled a packaged version
-of the Box Environments that can be downloaded from this [link](https://unipg-my.sharepoint.com/:u:/g/personal/alberto_dionigi_studenti_unipg_it/EUAkz-Swq8NFnETrQevvPnEBnh4t2wfqxlUaTX0T8yFxdQ?e=83zbiC).
+of the Box Environments that can be downloaded from this [link](http://sira.diei.unipg.it/supplementary/public/D-VAT/VAT_UE4_Env.zip).
 
 <div class="immagini">
   <img src="images/DR_1.jpg" alt="dr_1" width=32%>
@@ -135,7 +135,7 @@ If you want also to disable the black screen in Unreal, remember to set `'render
 
 ### PreTrained Models
 
-You can download one of our pre-trained models from [here](https://unipg-my.sharepoint.com/:u:/g/personal/alberto_dionigi_studenti_unipg_it/EdbasJ4SptZFtldkpuP744IB6_ZbOOpxinleJ5gF91mZGw?e=u2Jr37). Just unzip it in the experiments folder and accordingly configure 
+You can download one of our pre-trained models from [here](http://sira.diei.unipg.it/supplementary/public/D-VAT/D-VAT_PreTrained.zip). Just unzip it in the experiments folder and accordingly configure 
 **experiment_numer** and **model_numer** of the previous step. 
 
 ---
