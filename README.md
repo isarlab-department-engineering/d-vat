@@ -63,7 +63,7 @@ pip install --upgrade --force-reinstall wheel==0.38.4
 ### Unreal Engine 4
 
 We used Unreal Editor 4.26.2 to build the training environment. We compiled a packaged version
-of the Box Environments that can be downloaded from this [link](http://sira.diei.unipg.it/supplementary/public/D-VAT/VAT_UE4_Env.zip) (If the link does not work, use this [mirror](https://mega.nz/file/uOhXQZpY#7gmndjBeNgdUM_ipkgInRxJz9XSC6jw_8QkNmiY_ud0)).
+of the Box Environments that can be downloaded from this [link](http://sira.diei.unipg.it/supplementary/public/D-VAT/) and download `VAT_UE4_Env.zip` (If the link does not work, use this [mirror](https://mega.nz/file/uOhXQZpY#7gmndjBeNgdUM_ipkgInRxJz9XSC6jw_8QkNmiY_ud0)).
 
 <div class="immagini">
   <img src="images/DR_1.jpg" alt="dr_1" width=32%>
@@ -135,7 +135,7 @@ If you want also to disable the black screen in Unreal, remember to set `'render
 
 ### PreTrained Models
 
-You can download one of our pre-trained models from [here](http://sira.diei.unipg.it/supplementary/public/D-VAT/D-VAT_PreTrained.zip) (If the link does not work, use this [mirror](https://mega.nz/file/bShkkKjB#-0u6ggsCoNJBY54bviPaQ_5EREyUTssbVbOoDwgbA_s). Just unzip it in the experiments folder and accordingly configure 
+You can download one of our pre-trained models from [here](http://sira.diei.unipg.it/supplementary/public/D-VAT/) and download `D-VAT_PreTrained.zip` (If the link does not work, use this [mirror](https://mega.nz/file/bShkkKjB#-0u6ggsCoNJBY54bviPaQ_5EREyUTssbVbOoDwgbA_s)). Just unzip it in the experiments folder and accordingly configure 
 **experiment_numer** and **model_numer** of the previous step. 
 
 ---
